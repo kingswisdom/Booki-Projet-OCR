@@ -26,10 +26,11 @@
     <div class="intro_container">
       <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
       <div class="intro_subtitle">En plein centre ville ou en pleine nature</div>
-      <form action="" method="get">
+      <form action="#" method="get">
         <div class="search_container">
           <button class="button_gps" type="button"><i class="fa-solid fa-location-dot"></i></button>
-          <input type="text" placeholder="Marseille, France">
+          <label class="sr-only" for="search">Mon label</label>
+          <input id="search" type="text" placeholder="Marseille, France">
           <button class="button_search" type="submit">Rechercher</button>
         </div>
       </form>
@@ -198,39 +199,52 @@
       </section>
       <section class="section_3" id="section_3">
         <h3>Activités à Marseille</h3>
-        <div class="activity_container">
-          <div class="column_big">
+        <div class="activity_container">  <!--Conteneur Flex-->
+          
+          <div class="column_1">
             <div class="big_activity_card">
               <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
               <h3>Vieux Port</h3>
             </div>
           </div>
-          <div class="column_small">
-            <div class="small_activity_card">
-              <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
-              <h3>Fort de Pomègues</h3>
+          
+          <div class="column_2">
+            <div class="row_1">
+              <div class="small_activity_card">
+                <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
+                <h3>Fort de Pomègues</h3>
+              </div>
             </div>
-            <div class="small_activity_card">
-              <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-              <h3>Îles du Frioul</h3>          
+            <div class="row_2">
+              <div class="small_activity_card">
+                <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
+                <h3>Îles du Frioul</h3>          
+              </div>
             </div>
           </div>
-          <div class="column_big">
+          
+          <div class="column_3">
             <div class="big_activity_card">
               <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
               <h3>Parc National des Calanques</h3>
             </div>
           </div>
-          <div class="column_small">
-            <div class="small_activity_card">
-              <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-              <h3>Notre-Dame-de-la-Garde</h3>
+          
+          <div class="column_4">
+            <div class="row_1">
+              <div class="small_activity_card">
+                <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
+                <h3>Notre-Dame-de-la-Garde</h3>
+              </div>
             </div>
-            <div class="small_activity_card">
-              <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
-              <h3>Parc Longchamp</h3>
-            </div>
+            <div class="row_2">
+              <div class="small_activity_card">
+                <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
+                <h3>Parc Longchamp</h3>
+              </div>
+            </div>            
           </div>
+          
         </div>
       </section>
   
